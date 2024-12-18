@@ -1,0 +1,79 @@
+html, body {
+    background-color: #EEEEEE;
+    font-family: Helvetica;
+    margin: 0;
+}
+
+p {
+    font-weight: bold;
+}
+
+main {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#main {
+    height: 400px;
+    padding: 50px;
+    color: Navy;
+}
+
+#baner {
+    height: 200px;
+    background-color: #DDDDDD;
+}
+
+.a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    font-size: 150%;
+    color: navy;
+    font-weight: bold;
+}
+
+.form #ogloszenie {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #999;
+    padding: 5px; 
+    font-size: 14px;
+    resize: none;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+footer {
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+#header {
+    display: flex;
+}
+
+#logo {
+    display: flex;
+    height: 100px;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+}
+
+#menu {
+    width: 50%;
+    height: 100px;
+    background-color: lightblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
